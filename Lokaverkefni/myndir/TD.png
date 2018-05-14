@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>VSH Lokaverkefni</title>
+		<link rel="stylesheet" type="text/css" href="css/normalize.css">
+		<link rel="stylesheet" type="text/css" href="css/Verslun.css">
+		<link href="https://fonts.googleapis.com/css?family=PT+Sans:700|Playfair+Display" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Alegreya+Sans" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Special+Elite" rel="stylesheet">
+	</head>
+	<body>
+		<section class="nav">
+		<nav class="topnav">
+        	<ul class="topmenu">
+		        <li><a href="start.html">Heim</a></li>
+		        <li><a href="index.html">Miðar</a></li>
+		        <li><a href="myndir.html">Flytjendur</a></li>
+		        <li class="Verslun"><a href="file:///C:/Users/2303012980/Desktop/Lokaverkefni/Verslun.html">Verslun</a></li>		
+		        <li><a href="myndir.html">Concept Art</a></li>
+        	</ul>
+    	</nav>
+    	</section>
+    	<header>
+    		<h1><img class='Steinn' src='myndir/rockson.png'>ROCK RECORDS</h1>
+    	</header>
+    	<section class="kafli-1">
+		<article class="adalgrein">
+			<h2>Aðaldálkur</h2>
+			<h4>ef þú kaupir Áskrift er 50.000kr á mánuð fyrir eina plötu á ári og frían bol.
+			</h4>
+			
+			<p class="p">
+Holy Diver
+You've been down too long in the midnight sea
+Oh what's becoming of me
+Ride the tiger
+You can see his stripes but you know he's clean
+Oh don't you see what I mean
+Gotta get away
+Holy Diver
+Got!
+Shiny diamonds
+Like the eyes of a cat in the black and blue
+Something is coming for you
+Look out!
+Race for the morning
+You can hide in the sun 'till you see the light
+Oh we will pray it's all right
+Gotta get away
+Get away
+Between the velvet lies
+There's a truth that's hard as steel
+Yeah!
+The vision never dies
+Life's a never ending wheel
+Say!
+Holy Diver
+You're the star of the masquerade
+No need to look so afraid
+Jump, jump!
+Jump on the tiger
+You can feel his heart but you know he's mean
+Some light can never be seen
+Yeah!
+Holy Diver
+You've been down too long in the midnight sea
+Oh what's becoming of me
+No, no!
+Ride the tiger
+You can see his stripes but you know he's clean
+Oh don't you see what I mean
+Gotta get away
+Get away
+Gotta get away
+Get away, yeah
+Holy Diver
+Sole Survivor
+You're the one who's clean
+Holy Diver
+Holy Diver
+There a cat in the blue comin' after for you
+Holy Diver
+Oh Holy Diver
+Yeah, alright!
+Get away, get away, get away
+Holy Diver
+Holy Diver
+Holy Diver
+
+			</p>
+			<div>
+				<table class="table">
+				<tr>
+					<th>Plata</th>
+					<th>Hljómsveit</th>
+					<th>Ár</th>
+					<th>laga fjöl.</th>
+				</tr>
+				<tr>
+					<td>The pick of Destiny</td>
+					<td>Tenacios D</td>
+					<td>2006</td>
+					<td>15</td>
+				</tr>
+				<tr>
+					<td>Holy Diver (Remasterd</td>
+					<td>Dio</td>
+					<td>1994</td>
+					<td>19</td>
+				</tr>
+				<tr>
+					<td>Blue & Lonesome</td>
+					<td> The Rolling Stones</td>
+					<td>2016</td>
+					<td>12</td>
+				</tr>
+				<tr>
+					<td>Mothership</td>
+					<td>Led-Zepplin</td>
+					<td>2007</td>
+					<td>13</td>
+				</tr>
+			</table>
+		</div>
+		<div class="form">
+			<form action="/action_page.php" method="get" style="border: 5px groove green; border-radius: 30px; width: 250px; padding: 10px;">
+				<legend><h1>Áskrift</h1></legend>
+				<label>Nafn</label>
+				<br>
+	   			<input
+	        		type="text"
+	        		name="Nafn"
+	        		id="Nafn"
+	        		autofocus
+	        		required
+	       			placeholder="Full Name"
+	        		pattern="[a-zA-Z0-9\s]+"
+	       			title="ATH. Nafn getur aðeins verið með Enska stafi. Dæmi: Elvar">
+	       			<br>
+	       		<label>Símanúmer</label>
+	       		<br>
+	   			<input
+	        		type="integer"
+	        		name="Símanúmer"
+	        		id="Símanúmer"
+	        		autofocus
+	        		required
+	       			placeholder="t.d. 5812345"
+	        		pattern="[0-9]{7}"
+	       			title="ATH. Símanúmer getur aðeins verið með 7 númer">
+	       			<br>
+	       		<label>Netfang</label>
+	       		<br>
+	   			<input
+	        		type="email"
+	        		name="Netfang"
+	        		id="Netfang"
+	        		autofocus
+	        		required
+	       			placeholder="t.d. jon@samskip.is"
+	        		pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+.[a-z]{2,}"
+	       			title="Notaðu nothæft netfang">
+	       			<br>
+	       		<label>Dagsetning</label>
+	       		<br>
+				<input 
+					type="date" 
+					name="Dagsetning"
+					required>
+					<br>
+				<label>Öriggis númer</label>
+				<br>
+				<input 
+					type="number" 
+					name="Fjöldi"
+					min="1"
+					required
+					max="10">
+					<br>
+				<label>Kort:</label>
+				<input
+					type="checkbox" 
+					name="Árgerð"
+					reguired>
+				<label> Visa</label>
+				<input 
+					type="checkbox" 
+					name="Árgerð"
+					required>
+				<label>Metro</label>
+				<br>
+				<label>Tegund:</label>
+				<input 
+				type="radio" 
+				name="Litur"
+				required>
+				<label>Debit</label>
+				<input 
+				type="radio" 
+				name="Litur"
+				required>
+				<label>Credit</label>
+				<br>
+				<label>Kortanumer</label>
+				<br>
+				<input style="font-family: 'Special Elite', cursive;"
+					type="textarea" 
+					name="Texta Svæði"
+					placeholder="0000 0000 0000">
+					<br>
+				<button style="background: black; border: 5px ridge grey; border-radius: 10px; color: white; width: 120px;
+				" type="submit">Panta Áskrift</button>
+
+				<img class="homo" src="homo.jpg">
+
+			</form>
+		</div>
+		</article>
+		<aside class="vinstri">
+			<h3>Plötur</h3>
+			<img class="plotur" src="myndir/TD.png">
+			<p><strong>Tenacios D - The Pick of Destiny</strong></p>
+				<p>19.99 $</p>
+
+			<img class="plotur" src="myndir/Dio.png">
+			<p><strong>Dio - Holy Diver (Remasterd)</strong></p>
+				<p>19.99 $</p>
+
+		</aside>
+
+		<aside class="haegri">
+			<h3>Plötur</h3>
+			<img class="plotur" src="myndir/stone.png">
+			<p><strong> The Rolling Stones - Blue & Lonesome</strong></p>
+				<p>19.99 $</p>
+
+			<img class="plotur" src="myndir/Ship.png">
+			<p><strong>Led-Zeppling - Mothership</strong></p>
+				<p>199.99 $</p>
+		</aside>
+	</section>
+	</body>
+</html>
